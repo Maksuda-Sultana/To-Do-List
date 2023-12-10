@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;600&display=swap');
+
+*{
+ margin: 0; 
+ box-sizing: border-box;  
+}
+body{
+font-family: 'Afacad', sans-serif;
+background-color:rgb(254, 195, 254)
+}
+
+main{
+max-width: 550px; 
+margin: 0 auto;   
+}
+
+
+#new-task-input{
+padding: 10px;
+border:2px solid rgb(55, 2, 55);
+font-size: 18px;
+width: 100%;
+}
+
+.task-input{
+margin: 50px 0;
+color:rgb(61, 2, 61) ;    
+}
+
+h1{
+margin-bottom:15px;
+font-size: 26px;    
+}
+
+#new-task-submit{
+padding: 13px;
+font-size: 18px;
+border: none;
+outline: none;
+background-color: rgba(124, 4, 124, 0.76);
+color: white;
+cursor: pointer;
+margin-top: 15px;
+}
+
+.task-list h2{
+font-size: 23px;    
+margin: 20px 0;
+color: rgb(61, 2, 61) ;
+}
+
+#tasks {
+padding: 20px; 
+border: 2px solid rgb(24, 1, 24);  
+}
+
+.task{
+margin-bottom: 20px;
+padding:15px ;
+background-color:rgb(165, 82, 165) ;
+
+
+}
+
+.text{
+background-color: transparent; 
+font-size: 20px;
+border: none;   
+color: white;
+width: 100%;
+padding: 20px  ;
+border-bottom: 1px rgb(224, 193, 224);
+margin-bottom: 10px;
+}
+
+.edit, .delete {
+ padding: 10px 20px;  
+ background-color: rgba(47, 1, 47, 0.76);
+ color: white; 
+ font-size: 18px;
+ outline: none;
+ border: none;
+ cursor: pointer;
+}
+
+.delete{
+margin:0 10px;    
+}
